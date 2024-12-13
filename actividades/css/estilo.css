@@ -327,8 +327,21 @@ body section:nth-child(4){
     }
 }
 @media (max-width: 390px){
+    .sticky-nav ul li {
+        margin: 0 5px;
+    }
+    .sticky-nav ul li a {
+        font-size: 10px;
+    }
     /*ACTIVIDAD 2*/
     body.ACTIVIDAD2 .actividad {
         height: 300vh;
     }
-}    
+} 
+@media (max-width: 300px){
+    /*ACTIVIDAD 2*/
+    body.ACTIVIDAD2 .actividad {
+        height: 350vh;
+    }
+}     
+
