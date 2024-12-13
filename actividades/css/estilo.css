@@ -151,6 +151,9 @@ body section:nth-child(4){
 .introduccion p{
     color: white;
 }
+.guiadocente{
+    margin: 20px;
+}
 .guiadocente p{
     text-align: left;
 }
@@ -306,6 +309,11 @@ body section:nth-child(4){
         font-size: 100px;
     }
 } 
+@media (max-width: 590px) {
+    .ACTIVIDAD2 .actividad{
+        height: 250vh;
+    }
+}
 @media (max-width: 430px){
     .sticky-nav ul li {
         margin: 0 10px;
@@ -314,12 +322,13 @@ body section:nth-child(4){
         font-size: 15px;
     }
                 /*ACTIVIDAD 2*/
-    .ACTIVIDAD2 .actividad{
-        height: 300vh;
-    }
-}           
-@media (max-width: 590px) {
-    .ACTIVIDAD2 .actividad{
-        height: 250vh;
+    body.ACTIVIDAD2 .actividad {
+        height: 220vh;
     }
 }
+@media (max-width: 390px){
+    /*ACTIVIDAD 2*/
+    body.ACTIVIDAD2 .actividad {
+        height: 300vh;
+    }
+}    
